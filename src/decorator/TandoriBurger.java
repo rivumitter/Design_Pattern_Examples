@@ -1,6 +1,6 @@
 package decorator;
 
-public class TandoriBurger extends Burger {
+public class TandoriBurger implements Burger {
 
     private String description;
     private double cost;
@@ -11,12 +11,12 @@ public class TandoriBurger extends Burger {
     }
 
     @Override
-    String getDescription() {
+    public String getDescription() {
         return description;
     }
 
     @Override
-    double getCost() {
+    public double getCost() {
         return cost;
     }
 

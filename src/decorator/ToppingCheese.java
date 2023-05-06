@@ -9,12 +9,12 @@ public class ToppingCheese extends ToppingsDecorator {
     }
 
     @Override
-    String getDescription() {
+    public String getDescription() {
         return burger.getDescription() + " added Cheese,";
     }
 
     @Override
-    double getCost() {
+    public double getCost() {
         return burger.getCost() + 60;
     }
 }

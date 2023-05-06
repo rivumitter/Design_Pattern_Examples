@@ -1,3 +1,3 @@
 package decorator;
 
-public abstract class ToppingsDecorator extends Burger{}
+public abstract class ToppingsDecorator implements Burger{}

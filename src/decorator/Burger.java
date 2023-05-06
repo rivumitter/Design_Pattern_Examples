@@ -1,6 +1,6 @@
 package decorator;
 
-public abstract class Burger {
+public interface Burger {
     abstract String getDescription();
 
     abstract double getCost();

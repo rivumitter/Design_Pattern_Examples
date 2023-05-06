@@ -9,12 +9,12 @@ public class ToppingsMayo extends ToppingsDecorator {
     }
 
     @Override
-    String getDescription() {
+    public String getDescription() {
         return burger.getDescription() + " added Mayo,";
     }
 
     @Override
-    double getCost() {
+    public double getCost() {
         return burger.getCost() + 30;
     }
 }
