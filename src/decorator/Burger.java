@@ -1,9 +1,9 @@
 package decorator;
 
 public interface Burger {
-    abstract String getDescription();
+    String getDescription();
 
-    abstract double getCost();
+    double getCost();
 
 
 

@@ -2,8 +2,8 @@ package decorator;
 
 public class TandoriBurger implements Burger {
 
-    private String description;
-    private double cost;
+    private final String description;
+    private final double cost;
 
     public TandoriBurger(String description, double cost) {
         this.description = description;
