@@ -3,3 +3,4 @@
 ### Decorator pattern
 ### Observer pattern
 ### Adapter pattern
+### Bridge pattern

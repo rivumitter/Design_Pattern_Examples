@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae76c88-6f56-4676-858a-5b620fd4934b" name="Changes" comment="Observer pattern added">
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdapterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/GroceryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/GroceryProductItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/GroceryToItemAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/SwiggyStore.java" afterDir="false" />
+    <list default="true" id="3ae76c88-6f56-4676-858a-5b620fd4934b" name="Changes" comment="adapter pattern added">
+      <change afterPath="$PROJECT_DIR$/src/bridge/BridgeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/HDVideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/NetflixVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/PrimeVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/U4kVideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/VideoProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -40,19 +40,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.AdapterMain">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="adapter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BridgeMain">
     <configuration name="AdapterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.AdapterMain" />
       <module name="design-pattern-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.BridgeMain" />
+      <module name="design-pattern-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgeMain" />
         <item itemvalue="Application.AdapterMain" />
         <item itemvalue="Application.ObserverMain" />
         <item itemvalue="Application.DecoratorMain" />
@@ -110,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683385173021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Observer pattern added">
+      <created>1683560990303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683560990303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adapter pattern added">
+      <created>1683561098910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683561098910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Observer pattern added" />
+    <MESSAGE value="adapter pattern added" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter pattern added" />
   </component>
 </project>
