@@ -2,7 +2,7 @@ package strategy;
 
 public class Car {
 
-    private DisplayStrategy displayStrategy;
+    private final DisplayStrategy displayStrategy;
 
     public Car(DisplayStrategy displayStrategy) {
         this.displayStrategy = displayStrategy;
